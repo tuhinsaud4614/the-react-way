@@ -1,0 +1,20 @@
+.Left {
+  flex-basis: 454px;
+  height: 618px;
+  display: none;
+}
+
+.LeftWrapper {
+  height: inherit;
+  width: 454px;
+}
+
+.Right {
+  min-width: 350px;
+}
+
+@media (min-width: 875px) {
+  .Left {
+    display: block;
+  }
+}

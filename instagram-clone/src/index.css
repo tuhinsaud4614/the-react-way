@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .accounts-form-container {
+    @apply md:bg-white md:border rounded-sm flex flex-col;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-white active:bg-accent/70 disabled:bg-accent/70 rounded px-2.5 py-1.5 text-sm font-semibold;
+  }
+
+  .btn-text-primary {
+    @apply text-accent bg-white active:text-accent/70 disabled:text-accent/70  text-center text-sm font-semibold;
+  }
+}
+
+@layer utilities {
+  .scale-83 {
+    --tw-scale-x: 0.83333;
+    --tw-scale-y: 0.83333;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
