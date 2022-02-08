@@ -1,0 +1,34 @@
+.Backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.Arrow {
+  position: fixed;
+  display: block;
+  background: white;
+  transform: rotate(45deg);
+  box-shadow: var(--box-shadow);
+}
+
+.Container {
+  position: fixed;
+  background: white;
+  border-radius: 6px;
+  z-index: 110;
+  box-shadow: var(--box-shadow);
+}
+
+.Content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
